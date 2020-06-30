@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>rpsls</title>
+<link rel="shortcut icon" href="images/logo2.png" />
+<link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+	<header style="text-align: center;">
+		<input type="image" src="images/logo1.png" class="headlogol">
+		<input type="image" src="images/name1.png" class="headpic"> <input
+			type="image" src="images/logo1.png" class="headlogor"
+			style="transform: scaleX(-1)";>
+	</header>
+	<p class="heading">Rock Paper Scissors Lizard Spock</p>
+	<p class="name">- by &nbsp; Ashul Gupta</p>
+
+
+
+	<div class="score">
+		<div class="pScore">
+			<h2>Player</h2>
+			<p>0</p>
+		</div>
+		<div class="cScore">
+			<h2>Computer</h2>
+			<p>0</p>
+		</div>
+	</div>
+
+	<div style="text-align: center;" class="start">
+		<div class="goB">
+			<button class="button" id="idgo">Let's Go!!!</button>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="select">
+			<select id="win" style="width: 150px;" onmouseover="dropw()"
+				onmouseout="this.size=1;">
+				<option value="0">WIN pts</option>
+				<option value="1">3</option>
+				<option value="2">2</option>
+				<option value="3">1</option>
+				<option value="4">0</option>
+			</select> <select id="tie" style="width: 150px; margin: 0px 10px 0px 10px;"
+				onmouseover="dropt()" onmouseout="this.size=1;">
+				<option value="0">TIE pts</option>
+				<option value="1">2</option>
+				<option value="2">1</option>
+				<option value="3">0</option>
+				<option value="4">-1</option>
+				<option value="5">-2</option>
+			</select> <select id="lose" style="width: 150px;" onmouseover="dropl()"
+				onmouseout="this.size=1;">
+				<option value="0">LOSE pts</option>
+				<option value="1">2</option>
+				<option value="2">1</option>
+				<option value="3">0</option>
+				<option value="4">-1</option>
+				<option value="5">-2</option>
+				<option value="6">-3</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="match" id="idmatch">
+		<h2 class="result">START</h2>
+		<div class="hands">
+			<img class="pHand" src="hands/Paper.png" /> <img class="cHand"
+				src="hands/Paper.png" />
+		</div>
+		<div class="options" style="text-align: center;">
+			<button class="button">Rock</button>
+			<button class="button" style="margin: 0px 40px 0px 40px;">Paper</button>
+			<button class="button">Scissors</button>
+			<button class="button" style="margin: 0px 40px 0px 40px;">Lizard</button>
+			<button class="button">Spock</button>
+		</div>
+	</div>
+	<div class="rulebox">
+		<img class="rule" src="hands/Rules.png" style="width: 300px;" />
+		<p class="quote">
+			"Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard
+			poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard,
+			Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock and,
+			as it always has, Rock crushes Scissors."<br>
+		<p class="quote" style="text-align: right; font-style: italic;">
+			- Dr. Sheldon Lee Cooper<br>B.Sc., M.Sc., M.A., Ph.D., Sc.D.
+		</p>
+		</p>
+
+	</div>
+
+	<br>
+	<br>
+	<br>
+
+
+	<div style="text-align: left; display: inline-block;">
+		<iframe
+			src="https://docs.google.com/forms/d/e/1FAIpQLSdpQ10T-BSIjDVzkciDIBX5hsPrmXnmN3kcY4WfzS6H9h5pCA/viewform?embedded=true"
+			width="640" height="480" frameborder="0" marginheight="0"
+			marginwidth="0">Loading…</iframe>
+	</div>
+	<div style="display: inline-block; padding-left: 250px;">
+		<p style="color: #ffffff; font-size: 32px; text-align: center;">Donate
+			via</p>
+		<input type="image" src="images/paytm.png" class="pay"><br>
+		<br> <input type="image" src="images/gpay.png" class="pay">
+	</div>
+
+	<script type="text/javascript"
+		src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eebbbc7f9d77cc6"></script>
+	<script src="js.js"></script>
+
+</body>
+</html>
